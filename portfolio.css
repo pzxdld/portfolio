@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#page-container {
+  font: 100% Arial, Helvetica, sans-serif;
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+#navbar {
+  background-color: #CFCDFF;
+  color: #242527;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+header h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+#about {
+  background-color: #CFCDFF;
+  color: #242527;
+}
+
+#location {
+  font-size: 12px;
+}
+
+.nav-link {
+  padding-right: 20px;
+  color: #242527;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+}
+
+#bio {
+  background-color: #242527;
+  color: #CFCDFF;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#footer {
+  background-color: #242527;
+  color: #CFCDFF;
+}
+
+#profile-link img {
+  width: 30px;
+}
+
+#projects {
+  background-color: #CFCDFF;
+  color: #242527;
+}
+
+.project-tile {
+  background-color: #0514F2;
+  box-shadow: 2px 5px 8px 2px #000000;
+  width: 300px;
+  height: 300px;
+}
+
+.project-tile div {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+}
+
+.project-tile p {
+  color: #242527;
+  padding: 2px 0;
+  background-color: #AED1FF;
+  border-bottom: 1px solid #242527;
+}
+
+.project-tile :hover {
+  box-shadow: 12px 16px 8px 2px #000000;
+}
+
+.project-image {
+  max-width: 80%;
+}
