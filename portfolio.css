@@ -77,27 +77,25 @@ header h1 {
 
 .project-tile {
   background-color: #0514F2;
-  box-shadow: 2px 5px 8px 2px #000000;
-  width: 300px;
-  height: 300px;
-}
+  /*box-shadow: 2px 5px 8px 2px $shadow-color;
+  
+  div {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+  }
+  
+  p {
+    color: $color2;
+    padding: 2px 0;
+    background-color: $tile-p-bgcolor;
+    border-bottom: 1px solid $color2;
+  }
 
-.project-tile div {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  height: 100%;
-}
-
-.project-tile p {
-  color: #242527;
-  padding: 2px 0;
-  background-color: #AED1FF;
-  border-bottom: 1px solid #242527;
-}
-
-.project-tile :hover {
-  box-shadow: 12px 16px 8px 2px #000000;
+  :hover {
+    box-shadow: 12px 16px 8px 2px $shadow-color;
+  }*/
 }
 
 .project-image {

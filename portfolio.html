@@ -24,14 +24,14 @@
 						<span class='navbar-toggler-icon'></span>
 					</button>
 					<div class='collapse navbar-collapse' id='navbarSupportedContent'>
-						<ul class="nav nav-pills">
-							<li class="nav-item">
+						<ul class='nav nav-pills'>
+							<li class='nav-item'>
 								<a class='nav-link' href='#about'>About</a>
 							</li>
-							<li class="nav-item">
+							<li class='nav-item'>
 								<a class='nav-link' href='#projects'>Samples</a>
 							</li>
-							<li class="nav-item">
+							<li class='nav-item'>
 								<a class='nav-link' href='#footer'>Contact</a>
 							</li>	
 						</ul>
@@ -39,7 +39,7 @@
 				</nav>
 			</header>
 
-			<!--Scrollspy spies on "main" ----------------------->
+			<!--Scrollspy spies on 'main' ----------------------->
 
 			<main data-bs-spy='scroll' data-bs-target='#navbar' data-bs-offset='30'>
 				<section id='about'>
@@ -133,7 +133,30 @@
 				<section id='projects' class='container-fluid py-3 px-4'>
 					<h3>Sample Projects</h3>
 
-					
+					<div class='row row-cols-1 row-cols-md-2 g-4'>
+						<div class='col-sm-6'>
+							<div class='card h-100'>
+								<div class='card-body'>
+									<h5 class='card-title'>JavaScript Game</h5>
+									<p class='card-text'>A simplified version of Microsoft's Minesweeper game.</p>
+									<a href='http://boblipscomb.com/Bombs_Away/Bombs_Away.html' target='_blank' class='btn btn-primary'>Let me play!</a>
+								</div>
+								<img src='images/bombs_away3.gif' class='card-img-bottom' alt='game picture'>
+							</div>
+						</div>
+						<div class='col-sm-6'>
+							<div class='card h-100'>
+								<div class='card-body'>
+									<h5 class='card-title'>Accessing API's</h5>
+									<p class='card-text'>A simple weather app.</p>
+									<a href='http://boblipscomb3-com.stackstaging.com/UdemyCompleteWebDev2/09-apis/weather.php?city=Tokyo' 
+										class='btn btn-primary' target='_blank'>Check the Weather</a>
+								</div>
+								<img src='images/weather_api.gif' class='card-img-bottom px-1 py-1' alt='game picture'>
+							</div>
+						</div>
+					</div>
+<!--
 					<div class='project-tile'>
 						<p>Weather App</p>
 					</div>
@@ -161,6 +184,7 @@
 						</a>
 						</div>
 					</div>
+-->
 				</section>
 
 				<footer id='footer' class='container-fluid'>
@@ -169,7 +193,7 @@
 					</p><br><br>
 					<div>
 						<a href='https://github.com/pzxdld' id='profile-link' target='_blank'>
-							<img src='images/GitHub-Mark.png' alt='github' />
+							<img src='images/github_icon.png' alt='github' />
 						</a>
 					</div>
 				</footer>
